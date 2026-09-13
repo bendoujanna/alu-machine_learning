@@ -3,7 +3,8 @@
 
 
 def mat_mul(mat1, mat2):
-    """Perform matrix multiplication and return a new matrix, or None if incompatible."""
+    """Perform matrix multiplication
+    and return a new matrix, or None if incompatible."""
     if len(mat1[0]) != len(mat2):
         return None
     return [
